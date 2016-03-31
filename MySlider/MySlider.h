@@ -12,5 +12,7 @@
 
 - (void) mydisplay;
 
+- (void) addMethod;
+
 
 @end

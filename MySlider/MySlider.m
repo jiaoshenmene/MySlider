@@ -15,4 +15,9 @@
 
     NSLog(@"mydisplay");
 }
+
+- (void) addMethod
+{
+    NSLog(@"mydisplay");
+}
 @end

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
   s.name             = "MySlider"  
-  s.version          = "0.8.4"  
+  s.version          = "0.8.5"  
   s.summary          = "A marquee view used on iOS."  
   #s.description      = <<-DESC  
    #                    It is a marquee view used on iOS, which implement by Objective-C.  
@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
   # s.osx.exclude_files = 'Classes/ios'  
   # s.public_header_files = 'Classes/**/*.h'  
   s.frameworks = 'Foundation' 
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking' ,'JSPatch'
 end  
